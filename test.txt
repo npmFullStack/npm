@@ -1,0 +1,161 @@
+create({
+    container: {
+        flex: 1,
+        backgroundColor: "#dcdcdc"
+    },
+    scrollContainer: {
+        flexGrow: 1
+    },
+    header: {
+        flexDirection: "row",
+        alignItems: "center",
+        padding: 15,
+        backgroundColor: "#fff",
+        borderBottomWidth: 1,
+        borderBottomColor: "#ccc",
+        paddingTop: 50
+    },
+    logo: {
+        width: 60,
+        height: 30,
+        resizeMode: "cover"
+    },
+    searchBar: {
+        flexDirection: "row",
+        alignItems: "center",
+        paddingVertical: 2,
+        backgroundColor: "#fff",
+        borderColor: "#ccc",
+        borderWidth: 1,
+        borderRadius: 20,
+        marginLeft: 10,
+        flex: 1,
+        paddingHorizontal: 15,
+        height: 45
+    },
+    searchIcon: {
+        marginRight: 5
+    },
+    searchInput: {
+        flex: 1,
+        fontSize: 16
+    },
+    body: {
+        paddingTop: 0
+    },
+    buttonsContainer: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        paddingHorizontal: 0
+    },
+    productButton: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        borderWidth: 1,
+        borderColor: "#333",
+        backgroundColor: "#1e88e5",
+        borderRadius: 20,
+        borderTopLeftRadius: 0,
+        borderTopRightRadius: 0,
+        padding: 5,
+        flex: 1,
+        margin: 0,
+        marginHorizontal: 5,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 120 },
+        shadowRadius: 4,
+        elevation: 4
+    },
+    buttonText: {
+        marginLeft: 8,
+        color: "#fff",
+        fontWeight: "600",
+        fontSize: 16
+    },
+
+    sliderContainer: {
+        marginVertical: 0,
+        alignItems: "center"
+    },
+    sliderImage: {
+        width: "100%",
+        height: 150,
+        borderRadius: 12,
+        resizeMode: "stretch"
+    },
+    categoryTitle: {
+        fontSize: 18,
+        fontWeight: "bold",
+        marginTop: 15,
+        marginBottom: 5,
+        paddingLeft: 15,
+        color: "#333"
+    },
+    categoryContainer: {
+        flexDirection: "row",
+        paddingLeft: 10
+    },
+    categoryCard: {
+        width: 80,
+        maxHeight: 80,
+        alignItems: "center",
+        marginRight: 10,
+        backgroundColor: "#f5f5f5",
+        borderRadius: 10,
+        padding: 10,
+        elevation: 5
+    },
+    categoryImage: {
+        width: 40,
+        height: 40,
+        resizeMode: "contain",
+        marginBottom: 5
+    },
+    categoryText: {
+        fontSize: 10,
+        color: "#333",
+        textAlign: "center",
+        fontWeight: 700
+    },
+    footer: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        backgroundColor: "#fff",
+        borderTopWidth: 1,
+        borderTopColor: "#ccc",
+        paddingVertical: 0,
+        paddingHorizontal: 10
+    },
+    footerItem: {
+        alignItems: "center",
+        flex: 1
+    },
+    footerText: {
+        fontSize: 12,
+        color: "#333",
+        marginTop: 2
+    },
+    cartIconContainer: {
+        alignItems: "center",
+        justifyContent: "center",
+        top: -10
+    },
+    cartIcon: {
+        width: 60,
+        height: 60,
+        backgroundColor: "#1e88e5",
+        borderRadius: 30,
+        justifyContent: "center",
+        alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.3,
+        shadowRadius: 4,
+        elevation: 8,
+        marginBottom: 2,
+        borderWidth: 2,
+        borderColor: "#333"
+    }
+});
